@@ -1,0 +1,101 @@
+html{
+    font-size: 62.6%;
+}
+
+body{
+    background-image: url(../img/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    height: 170px;
+    margin-left: 80px;
+    align-items: center;
+
+}
+
+.cabecalho .titulo h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 4rem;
+}
+
+.cabecalho .icone-titulo {
+    font-size: 4rem;
+    margin-right: 10px;
+    color: white;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    max-width: 100%;
+}
+
+main .illustracao {
+    margin-left: 25px;
+    flex: 1;
+}
+main .illustracao img {
+    max-width: 100%;
+    height: auto;
+}
+
+main .informacoes {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    flex: 0 0 45%;
+}
+
+main .informacoes h2{
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+main .informacoes p {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+main .informacoes  a.btn-register {
+    background-color: white;
+    max-width: 200px;
+    font-size: 1.6rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100px;
+    color: hsl(257, 40%, 49%);
+}
+
+main .informacoes a.btn-register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rodape .social {
+    font-size: 1.6rem; 
+}
+
+.rodape .social a i{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.rodape .social a:hover i{
+    color: hsl(300, 69%, 71%);
+    border: solid 1px  hsl(300, 69%, 71%);
+}

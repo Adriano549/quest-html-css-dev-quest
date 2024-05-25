@@ -1,0 +1,54 @@
+@media(max-width:768px){
+    .cabecalho {
+        height: 100px;
+        margin-left: 50px;
+    }
+    .cabecalho .titulo h1{
+        
+        font-size: 3rem;
+        
+    }
+
+
+    
+    main {
+        flex-direction: column;
+        padding: 0;
+        
+    }
+
+    main .illustracao {
+        padding: 20px;
+    }
+
+    main .informacoes {
+        flex: 0 0 45%;
+    }
+
+    main .informacoes h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 2.3rem;
+        padding: 0;
+        margin-bottom: 20px;
+        
+    }
+
+    main .informacoes p {
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    main .informacoes a.btn-register {
+        align-self: center;
+        text-align: center;
+        padding: 8px 50px 8px 50px;
+        margin-bottom: 20px;
+    }
+
+    .rodape {
+        justify-content: center;
+    }
+}
